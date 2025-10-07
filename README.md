@@ -65,7 +65,7 @@ _Alternatively, you can run the backend and frontend development servers separat
 
 The core of the backend is a LangGraph agent defined in `backend/src/agent/graph.py`. It follows these steps:
 
-<img src="./agent.png" title="Agent Flow" alt="Agent Flow" width="50%">
+<img src="./image.png" title="Agent Flow" alt="Agent Flow" width="50%">
 
 1.  **Generate Initial Queries:** Based on your input, it generates a set of initial search queries using a Gemini model.
 2.  **Web Research:** For each query, it uses the Gemini model with the Google Search API to find relevant web pages.
