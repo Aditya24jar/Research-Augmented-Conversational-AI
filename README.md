@@ -1,4 +1,4 @@
-# Gemini Fullstack LangGraph Quickstart
+# Research-Augmented-Conversational-AI
 
 This project demonstrates a fullstack application using a React frontend and a LangGraph-powered backend agent. The agent is designed to perform comprehensive research on a user's query by dynamically generating search terms, querying the web using Google Search, reflecting on the results to identify knowledge gaps, and iteratively refining its search until it can provide a well-supported answer with citations. This application serves as an example of building research-augmented conversational AI using LangGraph and Google's Gemini models.
 
@@ -55,11 +55,15 @@ npm install
 **Backend & Frontend:**
 
 ```bash
-make dev
+cd backend
+langgraph dev
+
+cd frontend
+npm run dev
 ```
 This will run the backend and frontend development servers.    Open your browser and navigate to the frontend development server URL (e.g., `http://localhost:5173/app`).
 
-_Alternatively, you can run the backend and frontend development servers separately. For the backend, open a terminal in the `backend/` directory and run `langgraph dev`. The backend API will be available at `http://127.0.0.1:2024`. It will also open a browser window to the LangGraph UI. For the frontend, open a terminal in the `frontend/` directory and run `npm run dev`. The frontend will be available at `http://localhost:5173`._
+_The backend API will be available at `http://127.0.0.1:2024`. The frontend will be available at `http://localhost:5173`._
 
 ## How the Backend Agent Works (High-Level)
 
