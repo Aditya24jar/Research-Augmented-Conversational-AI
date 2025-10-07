@@ -85,7 +85,7 @@ final answer:
 
 ```bash
 cd backend
-python examples/cli_research.py "What are the latest trends in renewable energy?"
+python examples/cli_research.py "What are the reasons for increase in stock prices of NVIDIA Corp?"
 ```
 
 ## Technologies Used
